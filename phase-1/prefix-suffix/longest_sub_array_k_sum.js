@@ -1,3 +1,17 @@
+/*
+Challenge 19 — Longest Subarray With Sum K
+
+Given an array of integers nums and an integer k, return the length of the longest continuous subarray whose sum equals k.
+
+This is intentionally similar to the previous problem, but the required answer is different.
+
+Example :
+nums = [1, -1, 5, -2, 3]
+k = 3
+
+Answer: 4
+*/
+
 
 function longestSubArrayWithKSum(arr,k){
     let map = new Map();
